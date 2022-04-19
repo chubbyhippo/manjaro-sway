@@ -31,6 +31,12 @@ include /etc/sway/config.d/*
 # user config
 include $HOME/.config/sway/config.d/*.conf
 
+set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
+
 input * {
     xkb_layout "us,th"
     xkb_options "grp:caps_toggle"
