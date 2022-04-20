@@ -1,6 +1,6 @@
 #!/bin/sh
 pamac update --no-confirm
-pamac install libimobiledevice vim tmux jdk-openjdk maven gradle nvm npm docker docker-compose snapd redshift python2 libreoffice-still --no-confirm
+pamac install libimobiledevice vim tmux fzf jdk-openjdk maven gradle nvm npm docker docker-compose snapd redshift python2 libreoffice-still --no-confirm
 pamac install ttf-jetbrains-mono noto-fonts-emoji ttf-fira-code ttf-cascadia-code ttf-fantasque-sans-mono perl-font-ttf ttf-ubuntu-font-family --no-confirm
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
 
